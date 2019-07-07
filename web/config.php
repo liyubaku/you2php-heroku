@@ -1,5 +1,5 @@
 <?php
-$gl=(isset($_COOKIE['gl']) && $_COOKIE['gl'])?$_COOKIE['gl']:'US';
+$gl=(isset($_COOKIE['gl']) && $_COOKIE['gl'])?$_COOKIE['gl']:'TW';
 define('ROOT_PART', Root_part());
 define('APIKEY', 'AIzaSyCKtx4G9FLe3qbYE_5F_bmC5_4IBJP8zXw');
 define('GJ_CODE', $gl);
